@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () = > {
+document.addEventListener('DOMContentLoaded', () => {
    const newBookForm = document.querySelector("#new-book");
 const close = document.getElementById("close");
 const button = document.querySelector("#add-book");
@@ -17,8 +17,7 @@ class Book {
       //this one is important for the storage
       this.read = true;
     } else if (read == "false") {
-      this.read = fa;
-      lse;
+      this.read = false;
     } else {
       this.read = read;
     }
